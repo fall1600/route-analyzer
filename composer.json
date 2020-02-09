@@ -1,0 +1,28 @@
+{
+    "name": "fall1600/route-analyzer",
+    "description": "Analyzer for Laravel Routes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fall1600",
+            "email": "fall1600@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1.3",
+        "ext-json": "*",
+        "illuminate/routing": "5.7.*",
+        "kassner/log-parser": "~1.0"
+    },
+    "require-dev": {
+        "codedungeon/phpunit-result-printer": "^0.4.4 || ^0.26.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fall1600\\RouteAnalyzer\\": "src"
+        }
+    }
+}
